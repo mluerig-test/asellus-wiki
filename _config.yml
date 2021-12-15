@@ -9,7 +9,8 @@ permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
 , "docs/tests/"
 ]
-
+include: 
+ - source
 
 #logo: "/assets/images/just-the-docs.png"
 
@@ -44,11 +45,11 @@ search:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "Home | asellus.org":
-    - "/"
-  "Wiki | asellus.org":
-    - "/wiki"
+# aux_links:
+  # "Home | asellus.org":
+    # - "/"
+  # "Wiki | asellus.org":
+    # - "/wiki"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
