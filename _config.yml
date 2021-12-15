@@ -1,6 +1,6 @@
 title: Asellus Wiki
 description: Knowledge base for Asellus aquaticus
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://asellus.org/wiki" # the subpath of your site, e.g. /blog
 url: "https://asellus.org/wiki" # the base hostname & protocol for your site, e.g. http://example.com
 
 theme: just-the-docs
